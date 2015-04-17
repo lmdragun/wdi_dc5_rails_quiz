@@ -13,3 +13,49 @@
  *= require_tree .
  *= require_self
  */
+
+ @import url(http://fonts.googleapis.com/css?family=Bubblegum+Sans);
+ @import url(http://fonts.googleapis.com/css?family=Schoolbell);
+
+img {
+  max-height: 200px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1 {
+  font-family: 'Bubblegum Sans', sans-serif;
+  text-align: center;
+  font-size:50px;
+}
+
+h2 {
+  display: block;
+  float: left;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: 'Bubblegum Sans', sans-serif;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+li {
+  font-family: 'Schoolbell', sans-serif;
+}
+
+.circuses {
+  width: 300px;
+  margin: auto;
+}
+
+.return {
+  text-decoration: overline;
+}

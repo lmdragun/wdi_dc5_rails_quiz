@@ -1,1 +1,12 @@
 
+<div class="return"><%= link_to 'All Circuses', circuses_path %></div>
+
+<h3><%= @circus.name %></h3>
+<h4>Entertainers:</h4>
+<ul>
+<% @entertainers.each do |e| %>
+<li><%= e.name.capitalize %> - <%= e.specialty %></li>
+<% end %>
+</ul>
+
+<small><%= link_to "Edit this Circus", edit_circus_path %></small>
